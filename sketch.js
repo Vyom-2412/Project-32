@@ -115,3 +115,11 @@ function mouseReleased()
 {
   projectile.release();
 }
+
+function keyPressed()
+{
+ if(keyCode === 32)
+ {
+  projectile.attach(this.ball) 
+ }
+}
